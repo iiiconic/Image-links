@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image links</title>
+    <style>
+      body {
+        background-color: rgb(236, 226, 226);
+      }
+      p {
+        text-wrap: wrap;
+        width: 1000px;
+      }
+      li {
+        font-size: large;
+      }
+
+      .header {
+        background-color: aqua;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .header-logo {
+        position: relative;
+        margin: 5px;
+      }
+      .home {
+        display: grid;
+        grid-row: inherit;
+        justify-content: center;
+        align-items: center;
+      }
+      .home-header {
+        font-size: x-large;
+        text-align: center;
+      }
+      .sign-out {
+        text-decoration: solid;
+        font-style: italic;
+        margin-top: 0px;
+      }
+
+      .nature {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        background-color: cornflowerblue;
+      }
+      .nature-image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 10px;
+      }
+      .img {
+        width: 400px;
+        height: 300px;
+      }
+
+      .food {
+        display: block;
+        justify-content: center;
+      }
+      .food-list {
+        list-style: disc;
+        display: grid;
+        grid-template-rows: 1fr;
+        row-gap: 50px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <img
+        class="header-logo"
+        src="assets/Screenshot 2024-02-27 080531.png"
+        alt="Tech. Nature. Flavor. United"
+      />
+    </section>
+    <section class="home">
+      <h1 class="home-header">🌿🍽️🔌 Welcome to our digital oasis! 🌿🍽️🔌</h1>
+      <p>
+        Step into a world where technology, nature, and food harmonize to
+        inspire and delight. Whether you're a tech enthusiast, a nature lover, a
+        culinary explorer, or all of the above, you've found your home.
+      </p>
+      <p>
+        Discover the latest innovations in the tech realm, immerse yourself in
+        the serene beauty of nature, and tantalize your taste buds with
+        delectable culinary creations. Our website is your gateway to a
+        multifaceted journey where the wonders of technology, the tranquility of
+        nature, and the pleasures of food converge.
+      </p>
+      <p>
+        Join us as we explore the intersection of these diverse yet
+        interconnected realms. From cutting-edge gadgets to sustainable living
+        practices, from mouthwatering recipes to eco-conscious dining tips,
+        there's something here for everyone who seeks to enrich their lives and
+        connect with the world around them.
+      </p>
+      <p>
+        So, come on in, explore, and be inspired. Let's embark on this
+        captivating journey together!
+      </p>
+      <p>Welcome to our world of technology, nature, and food.</p>
+      <p>With warmth and excitement,</p>
+      <p class="sign-out">DigitalGreensTable.com</p>
+      <img src="assets/images.jfif" alt="Computer and Fruits" />
+    </section>
+    <section class="nature">
+      <h1
+        class="home-header"
+        style="
+          font-size: xx-large;
+          text-decoration: underline;
+          margin-bottom: 50px;
+        "
+      >
+        How Can Technology Improve Nature
+      </h1>
+      <div class="nature-image-grid">
+        <a
+          href="https://science.howstuffworks.com/environmental/green-tech/sustainable/5-ways-nature-inspired-technology.htm"
+          target="_blank"
+        >
+          <img
+            src="assets/agricultural-robots-work-smart-farms.jpg"
+            alt="Robot harvesting in farm"
+            class="img"
+          />
+        </a>
+        <a
+          href="https://www.nature.com/articles/d41586-024-00173-x"
+          target="_blank"
+        >
+          <img
+            src="assets/gettyimages-1318237749-612x612.jpg"
+            alt="futuristic tab controlling irrigation of corn farm"
+            class="img"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/pulse/five-ways-nature-inspires-innovative-technology-emily"
+          target="_blank"
+        >
+          <img
+            src="assets/istockphoto-1450272068-612x612.jpg"
+            alt="solar and wind powered farm"
+            class="img"
+          />
+        </a>
+        <a
+          href="https://nature4climate.org/what-is-nature-tech-and-why-is-it-important/"
+          target="_blank"
+        >
+          <img
+            src="assets/istockphoto-1165058709-612x612.jpg"
+            alt="Globe of light over farmers hands"
+            class="img"
+          />
+        </a>
+        <a
+          href="https://qz.com/1048433/technology-is-changing-our-relationship-with-nature-as-we-know-it"
+          target="_blank"
+        >
+          <img
+            src="assets/stock-photo-businessman-holding-circular-economy-icon-circular-economy-concept-for-future-business-growth-and-2177764705.jpg"
+            alt="businessman-holding-circular-economy-icon-circular-economy-concept-for-future-business-growth"
+            class="img"
+          />
+        </a>
+        <a
+          href="https://link.springer.com/chapter/10.1007/978-3-030-88346-1_3"
+          target="_blank"
+        >
+          <img
+            src="assets/stock-photo-tree-with-soil-growing-on-the-converging-point-of-computer-circuit-board-blue-light-and-wireframe-1946631574.jpg"
+            alt="tree-with-soil-growing-on-the-converging-point-of-computer-circuit-board-blue-light-and-wireframe"
+            class="img"
+          />
+        </a>
+      </div>
+    </section>
+    <section class="food">
+      <h1
+        class="home-header"
+        style="
+          font-size: xx-large;
+          text-decoration: underline;
+          margin-bottom: 50px;
+        "
+      >
+        Technology In Food
+      </h1>
+      <ul class="food-list">
+        <a
+          href="assets/top-view-fresh-vegetables-with-greens-dark-table-vegetable-color-ripe-salad.jpg"
+          target="_blank"
+        >
+          <li>Fresh Vegetables</li>
+        </a>
+        <a href="assets/full-frame-sliced-red-onion-rings.jpg" target="_blank">
+          <li>Red Onions</li>
+        </a>
+        <a href="assets/still-life-with-uncooked-seafoods.jpg" target="'">
+          <li>Fresh Seafood</li>
+        </a>
+        <a href="assets/Fresh-Ingredients-1024x585.webp" target="_blank">
+          <li>Fresh Fruits and Veggies</li>
+        </a>
+        <a
+          href="assets/berries-732x549-thumbnail-1-732x549.avif"
+          target="_blank"
+        >
+          <li>Fresh Berries</li>
+        </a>
+        <a href="assets/Trini-Green-Seasoning-31-scaled.webp" target="_blank">
+          <li>Seasoning</li>
+        </a>
+      </ul>
+    </section>
+  </body>
+</html>
